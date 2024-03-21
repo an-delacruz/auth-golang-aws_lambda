@@ -2,7 +2,7 @@
 
 Built with
 
-- Golang 1.21
+- Golang 1.18
 - AWS Lambda
 - AWS API Gateway
 - DynamoDB
