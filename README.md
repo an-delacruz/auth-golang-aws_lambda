@@ -1,12 +1,23 @@
-# Welcome to your CDK Go project!
+# Auth APIs
 
-This is a blank project for CDK development with Go.
+Built with
 
-The `cdk.json` file tells the CDK toolkit how to execute your app.
+- Golang 1.21
+- AWS Lambda
+- AWS API Gateway
+- DynamoDB
+
+Functionalities
+
+- Login
+- Registration
+- Token Validation (Middleware)
 
 ## Useful commands
 
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
- * `go test`         run unit tests
+- `cdk deploy` deploy this stack to your default AWS account/region
+- `cdk diff` compare deployed stack with current state
+- `cdk synth` emits the synthesized CloudFormation template
+- `go test` run unit tests
+
+This project was built following Melkey's course @frontendmasters
